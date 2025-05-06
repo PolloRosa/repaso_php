@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/ico" href="assets/favicon/favicon.ico">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Lista de ejercicios HTML y PHP</h1>
+    <ol>
+        <li><a href="repasohtml.html">Repaso HTML5</a></li>
+        <li><a href="ej1_get.php?ref=ejecicio 1">Parámetros recibidos con GET</a></li>
+        <li><a href="ej2_random_image.php">Generar imagen random</a></li>
+        <li><a href="ej3_html_semantica.html">Etiquetas HTML semánticas</a></li>
+        <li><a href="ej4_login.php">Inicio de sesión</a></li>
+        <li><a href="ej5_registro.php">Registro de usuario</a></li>
+        <!-- <li><a href="ej6_carta_astral.php">Consulta de Carta Astral</a></li>-->
+    </ol>
+</body>
+</html>
