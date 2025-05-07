@@ -11,7 +11,7 @@
     <h1>Lista de ejercicios HTML y PHP</h1>
     <ol>
         <li><a href="ej1_repasohtml.html">Repaso HTML5</a></li>
-        <li><a href="ej1_get.php?ref=ejecicio 1">Parámetros recibidos con GET</a></li>
+        <li><a href="ej2_get.php?ref=ejecicio 1">Parámetros recibidos con GET</a></li>
         <li><a href="ej2_random_image.php">Generar imagen random</a></li>
         <li><a href="ej3_html_semantica.html">Etiquetas HTML semánticas</a></li>
         <li><a href="ej4_login.php">Inicio de sesión</a></li>
