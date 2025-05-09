@@ -22,7 +22,9 @@ if(isset($_POST['txtUsuario']) && isset($_POST['txtContrasena'])) {
     <title><?php echo $titulo; ?></title>
 </head>
 <body>
-    <a href="index.php">Regresar</a>
+    <a href="index.html">Regresar</a>
+    <br>
+    <br>
 <?php if ($haysesion) { ?>
     <section>
         <p><?php echo $status; ?></p>
@@ -60,6 +62,6 @@ if(isset($_POST['txtUsuario']) && isset($_POST['txtContrasena'])) {
     <br>
     <br>
     <br>
-    <a href="index.php">Regresar</a>
+    <a href="index.html">Regresar</a>
 </body>
 </html>

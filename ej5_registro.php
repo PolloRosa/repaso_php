@@ -133,7 +133,7 @@ if(isset($_POST['hdnRegistrar'])) {
     <title>Formularios</title>
 </head>
 <body>
-    <a href="index.php">Regresar</a>
+    <a href="index.html">Regresar</a>
     <section>
         <h2>Registro de usuario</h2>
         <form action="ej5_registro.php" method="post" enctype="multipart/form-data">
@@ -331,6 +331,6 @@ if(isset($_POST['hdnRegistrar'])) {
     <br>
     <br>
     <br>
-    <a href="index.php">Regresar</a>
+    <a href="index.html">Regresar</a>
 </body>
 </html>

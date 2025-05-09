@@ -10,6 +10,9 @@ $codigo = rand(30, 40);
     <title>Generar imagen random</title>
 </head>
 <body>
+    <a href="index.html">Regresar</a>
+    <br>
+    <br>
     <h3>Imagen <?php echo $codigo; ?></h3>
     <img src="https://picsum.photos/id/<?php echo $codigo; ?>/500/400" alt="Imagen <?php echo $codigo; ?>">
     <br><br>
@@ -18,6 +21,6 @@ $codigo = rand(30, 40);
     <br>
     <br>
     <br>
-    <a href="index.php">Regresar</a>
+    <a href="index.html">Regresar</a>
 </body>
 </html>
