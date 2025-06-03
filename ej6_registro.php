@@ -2,12 +2,6 @@
 $__UPLOAD_DIR__ = "upload/";
 $hoy = date('Y-m-d');
 
-// parámetro POST txtUsuario de página ej4_login.php
-// ejercicio 4 con 2 botones en 1 formulario dirigiendo a 2 diferentes páginas web
-$usuario = "";
-if(isset($_POST['txtUsuario']))
-    $usuario = $_POST['txtUsuario'];
-
 // en el mensaje de guardado incluir un input button popovertarget para mostrar un descargable sorpresa
 /* pendiente hacer página con los elementos input type:
 datetime-local <-- idea de consulta de carta natal con un API gratuito
@@ -71,6 +65,8 @@ $expectativas = "";
 $curriculum = "";
 $intereses = "";
 $boletin = "";
+
+// parámetro POST hdnRegistrar de página ej6_registro.php
 if(isset($_POST['hdnRegistrar'])) {
     if(isset($_POST['txtNombres']) && !empty($_POST['txtNombres'])){
         $nombres = "Nombres: " . $_POST['txtNombres'] . "<br>";
@@ -123,6 +119,10 @@ if(isset($_POST['hdnRegistrar'])) {
     }
     $boletin = "Recibir boletín? " . $_POST['selBoletin'];
 }
+// parámetro POST txtUsuario de página ej5_login.php
+// ejercicio 5 con 2 botones en 1 formulario dirigiendo a 2 diferentes páginas web
+if(isset($_POST['txtUsuario']))
+    $usuario = $_POST['txtUsuario'];
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -136,7 +136,7 @@ if(isset($_POST['hdnRegistrar'])) {
     <a href="index.html">Regresar</a>
     <section>
         <h2>Registro de usuario</h2>
-        <form action="ej5_registro.php" method="post" enctype="multipart/form-data">
+        <form action="ej6_registro.php" method="post" enctype="multipart/form-data">
             <input type="hidden" name="hdnRegistrar" value="1">
             <fieldset>
                 <legend>Datos personales</legend>

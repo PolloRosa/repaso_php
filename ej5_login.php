@@ -28,12 +28,12 @@ if(isset($_POST['txtUsuario']) && isset($_POST['txtContrasena'])) {
 <?php if ($haysesion) { ?>
     <section>
         <p><?php echo $status; ?></p>
-        <a href="ej4_login.php">Cerrar sesión</a>
+        <a href="ej5_login.php">Cerrar sesión</a>
     </section>
 <?php } else { ?>
     <section>
         <h2>Inicio de sesión</h2>
-        <form action="ej4_login.php" method="post">
+        <form action="ej5_login.php" method="post">
             <table>
                 <tr>
                     <td>Usuario:</td>
@@ -47,7 +47,7 @@ if(isset($_POST['txtUsuario']) && isset($_POST['txtContrasena'])) {
                     <tfoot>
                         <tr>
                             <td><input type="submit" value="Ingresar"></td>
-                            <td><input type="submit" formaction="ej5_registro.php" formmethod="post" formnovalidate value="¿No estás registrado?"></td>
+                            <td><input type="submit" formaction="ej6_registro.php" formmethod="post" formnovalidate value="¿No estás registrado?"></td>
                         </tr>
                     </tfoot>
                 </tr>
