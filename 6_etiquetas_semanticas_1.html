@@ -6,14 +6,22 @@
     <link rel="icon" type="image/ico" href="assets/favicon/favicon.ico">
     <title>Etiquetas HTML semánticas - parte 1</title>
     <style>
+        * {
+            font-size: 1.2vw;
+        }
         h1 {
             text-align: center;
             color: #514f4f;
-            text-decoration: underline
+            text-decoration: underline;
+            font-size: 2.5vw;
+        }
+        h2 {
+            font-size: 1.6vw;
         }
         code, p.code {
             color: #292929 !important;
             font-family: 'Courier New', Courier, monospace;
+            font-size: 1vw;
             border: 1px solid #514f4f;
             background-color: rgba(211, 211, 211, 0.7);
             border-radius: 2px;
@@ -62,8 +70,14 @@
                         </ul>
                     <p>Funcionalidad final:</p>
                     <p>
-                        Se creó 1 página HTML que contiene la estructura básica HTML5, los 6 encabezados h1 hasta h6, varios párrafos con información sobre atajos del IDE Visual Studio Code y etiquetas HTML, 1 lista ordenada, 1 lista desordenada, y 1 tabla que lista las etiquetas HTML5 para la creación de tablas con estilo provisto por las etiquetas &lt;colgroup&gt; y &lt;col&gt;.
+                        Se creó 1 página HTML que hace uso de las etiquetas listadas.<br>
                     </p>
+                    <ul>
+                        <li><code>&lt;header&gt;</code> y <code>&lt;footer&gt;</code> para los enlaces de inicio y fin de la página web.</li>
+                        <li><code>&lt;main&gt;</code> que contiene todo el contenido principal de la página web.</li>
+                        <li><code>&lt;article&gt;</code> que contiene el planteamiento del ejercicio y el ejercicio desarrollado.</li>
+                        <li><code>&lt;section&gt;</code> para las 2 secciones del plantemiento del ejercicio y del ejercicio desarrollado.</li>
+                    </ul>
                 </details>
             </section>
             <section id="resolucion">
